@@ -1,0 +1,25 @@
+# Robots.txt for Aarti Polymers
+# https://less-plan.web.app/
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://less-plan.web.app/sitemap.xml
+
+# Disallow unnecessary paths
+Disallow: /assets/
+Disallow: /theme.js
+
+# Crawl-delay (optional, for polite bots)
+Crawl-delay: 10
+
+# Google-specific
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 5
+
+# Bing-specific
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 10

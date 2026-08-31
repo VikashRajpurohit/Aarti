@@ -1,0 +1,68 @@
+{
+  "expo": {
+    "name": "Aarti Polymers",
+    "slug": "aarti-polymers",
+    "version": "1.1.5",
+    // "orientation": "portrait",
+    "icon": "./assets/apimage.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/apimage.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0a0a0c"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "buildNumber": "2",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.aartipolymers.app",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/apimage.png",
+        "backgroundColor": "#0a0a0c"
+      },
+      "package": "com.aartipolymers.app",
+      "permissions": [
+        "CAMERA",
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "versionCode": 2
+    },
+    "web": {
+      "favicon": "./assets/apimage.png"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Aarti Polymers to access your camera to scan QR codes."
+        }
+      ],
+      [
+        "expo-updates",
+        {
+          "username": "aartipolymers"
+        }
+      ]
+    ],
+    "updates": {
+      "enabled": true,
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/e38f88a5-37ce-4cb4-b57c-12479156de35",
+      "checkAutomatically": "ON_LOAD"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e38f88a5-37ce-4cb4-b57c-12479156de35"
+      }
+    },
+    "runtimeVersion": "1.1.5"
+  }
+}
